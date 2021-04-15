@@ -31,7 +31,7 @@ func MakeMuteAndDeafenRules() VoiceRules {
 			},
 			PhaseNames[DISCUSS]: {
 				"alive": false,
-				"dead":  true,
+				"dead":  false,
 			},
 		},
 		DeafRules: map[PhaseNameString]map[string]bool{
