@@ -1,9 +1,10 @@
 package settings
 
 import (
-	"github.com/automuteus/utils/pkg/game"
-	"github.com/bwmarrin/discordgo"
 	"sync"
+
+	"github.com/bwmarrin/discordgo"
+	"github.com/shokkunrf/automuteus-utils/pkg/game"
 )
 
 const DefaultLeaderboardSize = 3

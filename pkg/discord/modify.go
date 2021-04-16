@@ -4,9 +4,10 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
-	"github.com/automuteus/utils/pkg/premium"
-	"github.com/bwmarrin/discordgo"
 	"time"
+
+	"github.com/bwmarrin/discordgo"
+	"github.com/shokkunrf/automuteus-utils/pkg/premium"
 )
 
 type UserModify struct {

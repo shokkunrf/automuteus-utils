@@ -3,9 +3,10 @@ package task
 import (
 	"context"
 	"encoding/json"
-	"github.com/automuteus/utils/pkg/rediskey"
-	"github.com/go-redis/redis/v8"
 	"time"
+
+	"github.com/go-redis/redis/v8"
+	"github.com/shokkunrf/automuteus-utils/pkg/rediskey"
 )
 
 type JobType int
